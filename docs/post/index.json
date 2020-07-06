@@ -2,6 +2,16 @@
     
         
             {
+                "ref": "https://fukucchi.github.io/blog/post/status_code_2/",
+                "title": "Status_code_2",
+                "section": "post",
+                "date" : "2020.07.06",
+                "body": "見出しをつけよう "
+            }
+        
+    ,
+        
+            {
                 "ref": "https://fukucchi.github.io/blog/post/status_code/",
                 "title": "Status_code",
                 "section": "post",

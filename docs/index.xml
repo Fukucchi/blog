@@ -9,10 +9,18 @@
 		
 		<managingEditor>Page(&#34;Hugo Themes&#34;) (Hugo Author)</managingEditor>
     	
-  		<lastBuildDate>Mon, 06 Jul 2020 21:33:47 +0900</lastBuildDate>
+  		<lastBuildDate>Mon, 06 Jul 2020 22:20:38 +0900</lastBuildDate>
 		
 		<atom:link href="/" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>Status_code_2</title>
+			<link>https://fukucchi.github.io/blog/post/status_code_2/</link>
+			<pubDate>Mon, 06 Jul 2020 22:20:38 +0900</pubDate>
+			<guid>https://fukucchi.github.io/blog/post/status_code_2/</guid>
+			<description>見出しをつけよう </description>
+		</item>
+      	
 		<item>
 			<title>Status_code</title>
 			<link>https://fukucchi.github.io/blog/post/status_code/</link>
