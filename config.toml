@@ -1,5 +1,5 @@
 theme = "harbor"
-baseurl = "https://fukucchi.github.io/blog"
+baseurl = "https://fukucchi.github.io/blog/"
 title = "Hugo Themes"
 paginate = 3
 languageCode = "en"
