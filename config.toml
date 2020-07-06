@@ -1,6 +1,8 @@
 theme = "harbor"
 baseurl = "https://fukucchi.github.io/blog/"
 title = "Hugo Themes"
+# パスの指定。これをしないとcssがうまく反映されません。
+canonifyurls = true
 paginate = 3
 languageCode = "en"
 DefaultContentLanguage = "en"
