@@ -8,7 +8,17 @@
   </url>
   
   <url>
+    <loc>https://fukucchi.github.io/blog/tags/</loc>
+    <lastmod>2020-07-07T15:24:24+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://fukucchi.github.io/blog/post/url/</loc>
+    <lastmod>2020-07-07T15:24:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fukucchi.github.io/blog/tags/web/</loc>
     <lastmod>2020-07-07T15:24:24+09:00</lastmod>
   </url>
   
@@ -29,16 +39,6 @@
   
   <url>
     <loc>https://fukucchi.github.io/blog/post/api/</loc>
-    <lastmod>2020-07-07T14:35:49+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fukucchi.github.io/blog/tags/</loc>
-    <lastmod>2020-07-07T14:35:49+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fukucchi.github.io/blog/tags/web/</loc>
     <lastmod>2020-07-07T14:35:49+09:00</lastmod>
   </url>
   
