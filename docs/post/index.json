@@ -2,6 +2,36 @@
     
         
             {
+                "ref": "https://fukucchi.github.io/blog/post/url/",
+                "title": "URLには何が書いてあるの？",
+                "section": "post",
+                "date" : "2020.07.07",
+                "body": "URL 頻繁に目にするURLですが，これにはどんな情報が書き込まれているのでしょうか．\n結論から言うと，URLとは，ブラウザからサーバーへのアクセス内容を示すものです．具体的には，1. どういうやり取りの手順で 2. どのサーバーに 3. 何のコンテンツを取りに行くかが書かれています．\n例 このページのURLを例にとって解読してみましょう．\nhttps://fukucchi.github.io/blog/post/url/ 3つの部分に分けて説明しましょう．まず冒頭には https://と書かれています．これは，WebブラウザとWebサーバの間のやり取りをHTTPSというルールで行うことを意味しています．HTTPSとは，HyperText Transfer Protocol Secureの略で，HTTPのセキュリティを高めたルールのことです．\n次に，fukucchi.github.io/で，fukucchi.github.io/という名前のWebサーバーにアクセスしていることがわかります．\n最後にblog/post/url/で，このWebサーバーに対してblog/post/url/というコンテンツを取りに行くということが書かれています．\n"
+            }
+        
+    ,
+        
+            {
+                "ref": "https://fukucchi.github.io/blog/post/http/",
+                "title": "HTTPって何？",
+                "section": "post",
+                "date" : "2020.07.07",
+                "body": "Webページが表示される場合には，Webブラウザ（例えばGoogle Chrome）がWebサーバーにハイパーテキストを要求し，対してWebサーバーがそれを送信するという手続きが毎回行われています．\nこの手続きのルールがHTTP（HyperText Transfer Protocol）です．HTTPには，ハイパーテキストを要求・送信する手順や，他にも，要求されたコンテンツが存在しなかった場合の応答方法など様々な手順が世界標準で定められています．HTTPのおかげで，任意のWebブラウザとwebサーバの間のやり取りを行うことが可能になっています．\n"
+            }
+        
+    ,
+        
+            {
+                "ref": "https://fukucchi.github.io/blog/post/webpage_and_html/",
+                "title": "WebページとHTML",
+                "section": "post",
+                "date" : "2020.07.07",
+                "body": "Webページ Webページはハイパーテキストから構成されています．ハイパーテキストとは，1つの Web ページに別の Webページへの参照（ハイパーリンク）を埋め込んで，無数のWebページ同士を関連付けることを可能にするテキストのことです．\nHTML ハイパーテキストを記述するための言語がHTML（HyperText Markup Language）です．名前から見て取れるように，HTMLはマークアップ言語の一種です．つまり，文章の表示方法やハイパーリンクをタグと呼ばれるマークによって表現します．例えば\n\u0026lt;title\u0026gt;エンジニアにたどりつくまで\u0026lt;/title\u0026gt; などとして，\n\u0026lt;タグ\u0026gt;意味づけされる文章\u0026lt;/タグ\u0026gt; という形で記述を行います．\n"
+            }
+        
+    ,
+        
+            {
                 "ref": "https://fukucchi.github.io/blog/post/api/",
                 "title": "APIって何？",
                 "section": "post",

@@ -9,10 +9,43 @@
 		
 		<managingEditor>Page(&#34;エンジニアにたどりつくまで&#34;) (Fukucchi)</managingEditor>
     	
-  		<lastBuildDate>Tue, 07 Jul 2020 14:35:49 +0900</lastBuildDate>
+  		<lastBuildDate>Tue, 07 Jul 2020 15:24:24 +0900</lastBuildDate>
 		
 		<atom:link href="/" rel="self" type="application/rss+xml" />
 		
+		<item>
+			<title>URLには何が書いてあるの？</title>
+			<link>https://fukucchi.github.io/blog/post/url/</link>
+			<pubDate>Tue, 07 Jul 2020 15:24:24 +0900</pubDate>
+			<guid>https://fukucchi.github.io/blog/post/url/</guid>
+			<description>URL 頻繁に目にするURLですが，これにはどんな情報が書き込まれているのでしょうか．
+結論から言うと，URLとは，ブラウザからサーバーへのアクセス内容を示すものです．具体的には，1. どういうやり取りの手順で 2. どのサーバーに 3. 何のコンテンツを取りに行くかが書かれています．
+例 このページのURLを例にとって解読してみましょう．
+https://fukucchi.github.io/blog/post/url/ 3つの部分に分けて説明しましょう．まず冒頭には https://と書かれています．これは，WebブラウザとWebサーバの間のやり取りをHTTPSというルールで行うことを意味しています．HTTPSとは，HyperText Transfer Protocol Secureの略で，HTTPのセキュリティを高めたルールのことです．
+次に，fukucchi.github.io/で，fukucchi.github.io/という名前のWebサーバーにアクセスしていることがわかります．
+最後にblog/post/url/で，このWebサーバーに対してblog/post/url/というコンテンツを取りに行くということが書かれています．</description>
+		</item>
+      	
+		<item>
+			<title>HTTPって何？</title>
+			<link>https://fukucchi.github.io/blog/post/http/</link>
+			<pubDate>Tue, 07 Jul 2020 15:13:32 +0900</pubDate>
+			<guid>https://fukucchi.github.io/blog/post/http/</guid>
+			<description>Webページが表示される場合には，Webブラウザ（例えばGoogle Chrome）がWebサーバーにハイパーテキストを要求し，対してWebサーバーがそれを送信するという手続きが毎回行われています．
+この手続きのルールがHTTP（HyperText Transfer Protocol）です．HTTPには，ハイパーテキストを要求・送信する手順や，他にも，要求されたコンテンツが存在しなかった場合の応答方法など様々な手順が世界標準で定められています．HTTPのおかげで，任意のWebブラウザとwebサーバの間のやり取りを行うことが可能になっています．</description>
+		</item>
+      	
+		<item>
+			<title>WebページとHTML</title>
+			<link>https://fukucchi.github.io/blog/post/webpage_and_html/</link>
+			<pubDate>Tue, 07 Jul 2020 15:00:04 +0900</pubDate>
+			<guid>https://fukucchi.github.io/blog/post/webpage_and_html/</guid>
+			<description>Webページ Webページはハイパーテキストから構成されています．ハイパーテキストとは，1つの Web ページに別の Webページへの参照（ハイパーリンク）を埋め込んで，無数のWebページ同士を関連付けることを可能にするテキストのことです．
+HTML ハイパーテキストを記述するための言語がHTML（HyperText Markup Language）です．名前から見て取れるように，HTMLはマークアップ言語の一種です．つまり，文章の表示方法やハイパーリンクをタグと呼ばれるマークによって表現します．例えば
+&amp;lt;title&amp;gt;エンジニアにたどりつくまで&amp;lt;/title&amp;gt; などとして，
+&amp;lt;タグ&amp;gt;意味づけされる文章&amp;lt;/タグ&amp;gt; という形で記述を行います．</description>
+		</item>
+      	
 		<item>
 			<title>APIって何？</title>
 			<link>https://fukucchi.github.io/blog/post/api/</link>

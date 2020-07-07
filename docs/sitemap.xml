@@ -3,12 +3,32 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://fukucchi.github.io/blog/post/api/</loc>
-    <lastmod>2020-07-07T14:35:49+09:00</lastmod>
+    <loc>https://fukucchi.github.io/blog/post/</loc>
+    <lastmod>2020-07-07T15:24:24+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://fukucchi.github.io/blog/post/</loc>
+    <loc>https://fukucchi.github.io/blog/post/url/</loc>
+    <lastmod>2020-07-07T15:24:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fukucchi.github.io/blog/</loc>
+    <lastmod>2020-07-07T15:24:24+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fukucchi.github.io/blog/post/http/</loc>
+    <lastmod>2020-07-07T15:13:32+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fukucchi.github.io/blog/post/webpage_and_html/</loc>
+    <lastmod>2020-07-07T15:00:04+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://fukucchi.github.io/blog/post/api/</loc>
     <lastmod>2020-07-07T14:35:49+09:00</lastmod>
   </url>
   
@@ -19,11 +39,6 @@
   
   <url>
     <loc>https://fukucchi.github.io/blog/tags/web/</loc>
-    <lastmod>2020-07-07T14:35:49+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://fukucchi.github.io/blog/</loc>
     <lastmod>2020-07-07T14:35:49+09:00</lastmod>
   </url>
   

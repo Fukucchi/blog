@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-<title>エンジニアにたどりつくまで</title>
+<title>URLには何が書いてあるの？</title>
 
 
   
@@ -29,8 +29,6 @@
 <meta name="generator" content="Hugo 0.73.0" />
   </head>
   <body>
-    
-  
     
   
 
@@ -77,10 +75,16 @@
 
     <div class="intro-header">
       <div class="container">
-        <div class="page-heading">
+        <div class="post-heading">
           
-            <h1>エンジニアにたどりつくまで</h1>
+            <h1>URLには何が書いてあるの？</h1>
           
+          
+            <span class="meta-post">
+  <i class="fa fa-calendar-alt"></i>&nbsp;Jul 7, 2020
+  
+</span>
+
           
         </div>
       </div>
@@ -89,106 +93,44 @@
 
 
     
-<div class="container" role="main">
-    <div class="posts-list">
+  <div class="container" role="main">
+    <article class="article" class="blog-post">
       
-        
-      
+    <h2 id="url">URL</h2>
+<p>頻繁に目にするURLですが，これにはどんな情報が書き込まれているのでしょうか．</p>
+<p>結論から言うと，URLとは，<strong>ブラウザからサーバーへのアクセス内容</strong>を示すものです．具体的には，1. どういうやり取りの手順で 2. どのサーバーに 3. 何のコンテンツを取りに行くかが書かれています．</p>
+<h2 id="例">例</h2>
+<p>このページのURLを例にとって解読してみましょう．</p>
+<pre><code>https://fukucchi.github.io/blog/post/url/
+</code></pre><p>3つの部分に分けて説明しましょう．まず冒頭には <code>https://</code>と書かれています．これは，WebブラウザとWebサーバの間のやり取りをHTTPSという<strong>ルール</strong>で行うことを意味しています．HTTPSとは，HyperText Transfer Protocol Secureの略で，HTTPのセキュリティを高めたルールのことです．</p>
+<p>次に，<code>fukucchi.github.io/</code>で，<code>fukucchi.github.io/</code>という名前の<strong>Webサーバー</strong>にアクセスしていることがわかります．</p>
+<p>最後に<code>blog/post/url/</code>で，このWebサーバーに対して<code>blog/post/url/</code>という<strong>コンテンツ</strong>を取りに行くということが書かれています．</p>
+
+
 
       
-        <article class="post-preview">
-  <a href="https://fukucchi.github.io/blog/post/url/">
-      <h2 class="post-title">URLには何が書いてあるの？</h2>
-  </a>
-  <div class="post-entry">
+    </article>
     
-  </div>
-
-  <div class="postmeta">
-    <span class="meta-post">
-  <i class="fa fa-calendar-alt"></i>&nbsp;Jul 7, 2020
-  
-</span>
-
-  </div>
-</article>
-
-      
-        <article class="post-preview">
-  <a href="https://fukucchi.github.io/blog/post/http/">
-      <h2 class="post-title">HTTPって何？</h2>
-  </a>
-  <div class="post-entry">
     
-  </div>
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        (function() {
+            
+            
+            if (window.location.hostname == "localhost") return;
 
-  <div class="postmeta">
-    <span class="meta-post">
-  <i class="fa fa-calendar-alt"></i>&nbsp;Jul 7, 2020
-  
-</span>
-
-  </div>
-</article>
-
-      
-        <article class="post-preview">
-  <a href="https://fukucchi.github.io/blog/post/webpage_and_html/">
-      <h2 class="post-title">WebページとHTML</h2>
-  </a>
-  <div class="post-entry">
-    
-  </div>
-
-  <div class="postmeta">
-    <span class="meta-post">
-  <i class="fa fa-calendar-alt"></i>&nbsp;Jul 7, 2020
-  
-</span>
+            var dsq = document.createElement('script');
+            dsq.type = 'text/javascript';
+            dsq.async = true;
+            var disqus_shortname = 'yourdisqusshortname';
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="https://disqus.com/" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
 
   </div>
-</article>
-
-      
-        <article class="post-preview">
-  <a href="https://fukucchi.github.io/blog/post/api/">
-      <h2 class="post-title">APIって何？</h2>
-  </a>
-  <div class="post-entry">
-    
-  </div>
-
-  <div class="postmeta">
-    <span class="meta-post">
-  <i class="fa fa-calendar-alt"></i>&nbsp;Jul 7, 2020
-  
-</span>
-
-  </div>
-</article>
-
-      
-        <article class="post-preview">
-  <a href="https://fukucchi.github.io/blog/post/status_code/">
-      <h2 class="post-title">ステータスコード</h2>
-  </a>
-  <div class="post-entry">
-    
-  </div>
-
-  <div class="postmeta">
-    <span class="meta-post">
-  <i class="fa fa-calendar-alt"></i>&nbsp;Jul 6, 2020
-  
-</span>
-
-  </div>
-</article>
-
-      
-      </div>
-    
-</div>
 
     <footer>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
