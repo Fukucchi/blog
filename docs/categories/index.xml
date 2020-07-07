@@ -12,6 +12,16 @@
 		<atom:link href="/categories/" rel="self" type="application/rss+xml" />
 		
 		<item>
+			<title>APIって何？</title>
+			<link>https://fukucchi.github.io/blog/post/api/</link>
+			<pubDate>Tue, 07 Jul 2020 14:35:49 +0900</pubDate>
+			<guid>https://fukucchi.github.io/blog/post/api/</guid>
+			<description>APIとはApplication Programming Interfaceの略で，Webサーバーがアプリとうまく情報をやり取りできるようにするものとイメージするとよいでしょう．
+例えばユーザーがスマートフォンに入れている天気予報アプリとWebサーバーの間では情報のやり取りが行われています．天気予報アプリからは地域の情報が Webサーバーに送られ，逆にWebサーバーからは天気の情報が送り返されます．
+ここで，地域情報を受け取る役割を果たしているのがメッセージ受信APIです．</description>
+		</item>
+      	
+		<item>
 			<title>ステータスコード</title>
 			<link>https://fukucchi.github.io/blog/post/status_code/</link>
 			<pubDate>Mon, 06 Jul 2020 21:33:47 +0900</pubDate>
@@ -20,7 +30,7 @@
 ステータスコードというのは，HTTPリクエストに対する対してWebサーバーが返す処理結果のことです．100番台から500番台の5種類に大きく分けられます．
 まずは，100-300番台について．
  100番台はリクエストが継続中であるということを 200番台はリクエストが正常に受理されたことを 300番台はコンテンツURLが移動したとかで，追加の処理が必要なこと を示します．  クライアントエラーとサーバーエラー そして重要なのが400,500番台で，これらはエラーを示します．
- 400番がクライアントエラー，つまりブラウザ側のエラー  400: Bad Request 404: Not Found   500番台はWebサーバーのエラーです．  500: Internal Server Error 503: Service Unavailable    400,500については必須ですね．$$y+1$$</description>
+ 400番がクライアントエラー，つまりブラウザ側のエラー  400: Bad Request 404: Not Found   500番台はWebサーバーのエラーです．  500: Internal Server Error 503: Service Unavailable    400,500については必須ですね．</description>
 		</item>
       	
 	</channel>
