@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-<title>Status_code</title>
+<title>ステータスコード</title>
 
 
   
@@ -19,7 +19,7 @@
 
 <meta http-equiv="X-UA-Compatible" content="IE=edge" />
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="alternate" type="application/rss+xml" href="https://fukucchi.github.io/blog/index.xml" title="Hugo Themes">
+<link rel="alternate" type="application/rss+xml" href="https://fukucchi.github.io/blog/index.xml" title="エンジニアにたどりつくまで">
 
 <link id="dark-mode-theme" rel="stylesheet" href="https://fukucchi.github.io/blog/css/dark.css" />
 <link rel="stylesheet" href="https://fukucchi.github.io/blog/fontawesome/css/all.min.css" />
@@ -77,7 +77,7 @@
       <div class="container">
         <div class="post-heading">
           
-            <h1>Status_code</h1>
+            <h1>ステータスコード</h1>
           
           
             <span class="meta-post">
@@ -96,14 +96,41 @@
   <div class="container" role="main">
     <article class="article" class="blog-post">
       
-    <p>ははは
-たのしかったです．</p>
+    <p>アウトプットのためにブログを始めます．まずは先日の面接で答えられなかったことで思い出深いステータスコードから．</p>
+<p>ステータスコードというのは，HTTPリクエストに対する対してWebサーバーが返す処理結果のことです．100番台から500番台の5種類に大きく分けられます．</p>
+<p>まずは，100-300番台について．</p>
 <ul>
-<li>箇条書き</li>
+<li>100番台はリクエストが継続中であるということを</li>
+<li>200番台はリクエストが正常に受理されたことを</li>
+<li>300番台はコンテンツURLが移動したとかで，追加の処理が必要なこと
+を示します．</li>
 </ul>
+<h3 id="クライアントエラーとサーバーエラー">クライアントエラーとサーバーエラー</h3>
+<p>そして重要なのが400,500番台で，これらはエラーを示します．</p>
+<ul>
+<li>400番がクライアントエラー，つまりブラウザ側のエラー
+<ul>
+<li>400: Bad Request</li>
+<li>404: Not Found</li>
+</ul>
+</li>
+<li>500番台はWebサーバーのエラーです．
+<ul>
+<li>500: Internal Server Error</li>
+<li>503: Service Unavailable</li>
+</ul>
+</li>
+</ul>
+<p>400,500については必須ですね．</p>
 
 
 
+      
+        <div class="blog-tags">
+          
+            <a href="https://fukucchi.github.io/blog//tags/web/">web</a>&nbsp;
+          
+        </div>
       
     </article>
     
@@ -137,7 +164,7 @@
 
       
         &nbsp;/&nbsp;
-        <a href="https://fukucchi.github.io/blog/">Hugo Themes</a>
+        <a href="https://fukucchi.github.io/blog/">エンジニアにたどりつくまで</a>
       
 
       &nbsp;&ndash;&nbsp;

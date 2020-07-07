@@ -1,6 +1,6 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title>Categories on Hugo Themes</title>
+		<title>Categories on エンジニアにたどりつくまで</title>
 		<link>https://fukucchi.github.io/blog/categories/</link>
 		<description>Recent content in Categories </description>
 		<generator>Hugo -- gohugo.io</generator>
@@ -12,20 +12,15 @@
 		<atom:link href="/categories/" rel="self" type="application/rss+xml" />
 		
 		<item>
-			<title>Status_code_2</title>
-			<link>https://fukucchi.github.io/blog/post/status_code_2/</link>
-			<pubDate>Mon, 06 Jul 2020 22:20:38 +0900</pubDate>
-			<guid>https://fukucchi.github.io/blog/post/status_code_2/</guid>
-			<description>見出しをつけよう </description>
-		</item>
-      	
-		<item>
-			<title>Status_code</title>
+			<title>ステータスコード</title>
 			<link>https://fukucchi.github.io/blog/post/status_code/</link>
 			<pubDate>Mon, 06 Jul 2020 21:33:47 +0900</pubDate>
 			<guid>https://fukucchi.github.io/blog/post/status_code/</guid>
-			<description>ははは たのしかったです．
- 箇条書き  </description>
+			<description>アウトプットのためにブログを始めます．まずは先日の面接で答えられなかったことで思い出深いステータスコードから．
+ステータスコードというのは，HTTPリクエストに対する対してWebサーバーが返す処理結果のことです．100番台から500番台の5種類に大きく分けられます．
+まずは，100-300番台について．
+ 100番台はリクエストが継続中であるということを 200番台はリクエストが正常に受理されたことを 300番台はコンテンツURLが移動したとかで，追加の処理が必要なこと を示します．  クライアントエラーとサーバーエラー そして重要なのが400,500番台で，これらはエラーを示します．
+ 400番がクライアントエラー，つまりブラウザ側のエラー  400: Bad Request 404: Not Found   500番台はWebサーバーのエラーです．  500: Internal Server Error 503: Service Unavailable    400,500については必須ですね．</description>
 		</item>
       	
 	</channel>
