@@ -2,6 +2,16 @@
     
         
             {
+                "ref": "https://fukucchi.github.io/blog/post/readable_code1/",
+                "title": "『リーダブルコード』を読み始めました",
+                "section": "post",
+                "date" : "2020.07.18",
+                "body": "変数名はコメント 業務でコードを書く際のバイブル扱いされている『リーダブルコード』をついに読み始めました．これまでコードは動きさえすればいいとさえ思っていた人なので大変参考になりそうです．\nたとえ競プロでコードを書くのであっても，バグ率を下げるために有用そうです．例えば，配列clubs, members, usersのインデックスを，たんにi,j,kではなく，配列名の頭文字を使って，ci, mi, uiとするなど．\nあとは，単位を変数名に入れる．閉区間の範囲を指定するときはfirst, lastを使うなど．（右半開区間はbegin, end．）　変数名とは簡単なコメントだという意識を今後持ちたいです．\n"
+            }
+        
+    ,
+        
+            {
                 "ref": "https://fukucchi.github.io/blog/post/vpn/",
                 "title": "VPNとクラウドVPN",
                 "section": "post",
