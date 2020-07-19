@@ -2,7 +2,7 @@
     
         
             {
-                "ref": "https://fukucchi.github.io/blog/post/readable_code1/",
+                "ref": "https://fukucchi.github.io/post/readable_code1/",
                 "title": "『リーダブルコード』を読み始めました",
                 "section": "post",
                 "date" : "2020.07.18",
@@ -12,7 +12,7 @@
     ,
         
             {
-                "ref": "https://fukucchi.github.io/blog/post/vpn/",
+                "ref": "https://fukucchi.github.io/post/vpn/",
                 "title": "VPNとクラウドVPN",
                 "section": "post",
                 "date" : "2020.07.15",
@@ -22,7 +22,7 @@
     ,
         
             {
-                "ref": "https://fukucchi.github.io/blog/post/url/",
+                "ref": "https://fukucchi.github.io/post/url/",
                 "title": "URLには何が書いてあるの？",
                 "section": "post",
                 "date" : "2020.07.07",
@@ -32,7 +32,7 @@
     ,
         
             {
-                "ref": "https://fukucchi.github.io/blog/post/http/",
+                "ref": "https://fukucchi.github.io/post/http/",
                 "title": "HTTPって何？",
                 "section": "post",
                 "date" : "2020.07.07",
@@ -42,7 +42,7 @@
     ,
         
             {
-                "ref": "https://fukucchi.github.io/blog/post/webpage_and_html/",
+                "ref": "https://fukucchi.github.io/post/webpage_and_html/",
                 "title": "WebページとHTML",
                 "section": "post",
                 "date" : "2020.07.07",
@@ -52,7 +52,7 @@
     ,
         
             {
-                "ref": "https://fukucchi.github.io/blog/post/api/",
+                "ref": "https://fukucchi.github.io/post/api/",
                 "title": "APIって何？",
                 "section": "post",
                 "date" : "2020.07.07",
@@ -62,7 +62,7 @@
     ,
         
             {
-                "ref": "https://fukucchi.github.io/blog/post/status_code/",
+                "ref": "https://fukucchi.github.io/post/status_code/",
                 "title": "ステータスコード",
                 "section": "post",
                 "date" : "2020.07.06",
