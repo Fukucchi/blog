@@ -1,9 +1,9 @@
 theme = "harbor"
-baseurl = "https://fukucchi.github.io/blog/"
-title = "Hugo Themes"
+baseurl = "https://fukucchi.github.io/"
+title = "エンジニアにたどりつくまで"
 # パスの指定。これをしないとcssがうまく反映されません。
 canonifyurls = true
-paginate = 3
+paginate = 6
 languageCode = "en"
 DefaultContentLanguage = "en"
 enableInlineShortcodes = true
@@ -12,12 +12,12 @@ publishDir = "docs"
 
 # Optional
 # If you use googleAnalytics, you set top-level options in config.toml to the beginning of the config file like other top-level options.
-googleAnalytics = "UA-XXXXXXXX-XX"
+googleAnalytics = "UA-172996963-1"
 # and disqus too.
 disqusShortName = "yourdisqusshortname"
 
 [Author]
-  name = "Hugo Author"
+  name = "Fukucchi"
 
 [outputs]
   section = ["JSON", "HTML"]
