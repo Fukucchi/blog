@@ -1,7 +1,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
 		<title>Tags on エンジニアにたどりつくまで</title>
-		<link>https://fukucchi.github.io/tags/</link>
+		<link>https://fukucchi.github.io/blog/tags/</link>
 		<description>Recent content in Tags </description>
 		<generator>Hugo -- gohugo.io</generator>
 		
@@ -15,9 +15,9 @@
 		
 		<item>
 			<title>『リーダブルコード』を読み始めました</title>
-			<link>https://fukucchi.github.io/post/readable_code1/</link>
+			<link>https://fukucchi.github.io/blog/post/readable_code1/</link>
 			<pubDate>Sat, 18 Jul 2020 20:14:01 +0900</pubDate>
-			<guid>https://fukucchi.github.io/post/readable_code1/</guid>
+			<guid>https://fukucchi.github.io/blog/post/readable_code1/</guid>
 			<description>変数名はコメント 業務でコードを書く際のバイブル扱いされている『リーダブルコード』をついに読み始めました．これまでコードは動きさえすればいいとさえ思っていた人なので大変参考になりそうです．
 たとえ競プロでコードを書くのであっても，バグ率を下げるために有用そうです．例えば，配列clubs, members, usersのインデックスを，たんにi,j,kではなく，配列名の頭文字を使って，ci, mi, uiとするなど．
 あとは，単位を変数名に入れる．閉区間の範囲を指定するときはfirst, lastを使うなど．（右半開区間はbegin, end．）　変数名とは簡単なコメントだという意識を今後持ちたいです．</description>
@@ -25,9 +25,9 @@
       	
 		<item>
 			<title>VPNとクラウドVPN</title>
-			<link>https://fukucchi.github.io/post/vpn/</link>
+			<link>https://fukucchi.github.io/blog/post/vpn/</link>
 			<pubDate>Wed, 15 Jul 2020 11:11:25 +0900</pubDate>
-			<guid>https://fukucchi.github.io/post/vpn/</guid>
+			<guid>https://fukucchi.github.io/blog/post/vpn/</guid>
 			<description>VPNってなに？ VPNとはVirtual Private Networkの略で，あたかも専用線を使っているかのように複数のネットワーク間で安全な通信を行うための仕組みです．
 これは，インターネットと専用線の良さを両取りしたものです．インターネットには安価というメリットと安全性に欠けるというデメリットがあります．専用線には安全性があるというメリットと高価であるというデメリットがあります．VPNは両者のメリットを取り，安価かつ安全なネットワーク間の通信を可能にします．
 具体的には，VPNは，ネットワークAとネットワークBとの間の通信データを暗号化したり，署名を付与したりします．それによってあたかもネットワークAとネットワークBとが専用線で接続されているかのようなセキュリティ上の恩恵を実現することができます．
@@ -38,9 +38,9 @@
       	
 		<item>
 			<title>URLには何が書いてあるの？</title>
-			<link>https://fukucchi.github.io/post/url/</link>
+			<link>https://fukucchi.github.io/blog/post/url/</link>
 			<pubDate>Tue, 07 Jul 2020 15:24:24 +0900</pubDate>
-			<guid>https://fukucchi.github.io/post/url/</guid>
+			<guid>https://fukucchi.github.io/blog/post/url/</guid>
 			<description>URL 頻繁に目にするURLですが，これにはどんな情報が書き込まれているのでしょうか．
 結論から言うと，URLとは，ブラウザからサーバーへのアクセス内容を示すものです．具体的には，1. どういうやり取りの手順で 2. どのサーバーに 3. 何のコンテンツを取りに行くかが書かれています．
 例 このページのURLを例にとって解読してみましょう．
@@ -51,18 +51,18 @@ https://fukucchi.github.io/blog/post/url/ 3つの部分に分けて説明しま�
       	
 		<item>
 			<title>HTTPって何？</title>
-			<link>https://fukucchi.github.io/post/http/</link>
+			<link>https://fukucchi.github.io/blog/post/http/</link>
 			<pubDate>Tue, 07 Jul 2020 15:13:32 +0900</pubDate>
-			<guid>https://fukucchi.github.io/post/http/</guid>
+			<guid>https://fukucchi.github.io/blog/post/http/</guid>
 			<description>Webページが表示される場合には，Webブラウザ（例えばGoogle Chrome）がWebサーバーにハイパーテキストを要求し，対してWebサーバーがそれを送信するという手続きが毎回行われています．
 この手続きのルールがHTTP（HyperText Transfer Protocol）です．HTTPには，ハイパーテキストを要求・送信する手順や，他にも，要求されたコンテンツが存在しなかった場合の応答方法など様々な手順が世界標準で定められています．HTTPのおかげで，任意のWebブラウザとwebサーバの間のやり取りを行うことが可能になっています．</description>
 		</item>
       	
 		<item>
 			<title>WebページとHTML</title>
-			<link>https://fukucchi.github.io/post/webpage_and_html/</link>
+			<link>https://fukucchi.github.io/blog/post/webpage_and_html/</link>
 			<pubDate>Tue, 07 Jul 2020 15:00:04 +0900</pubDate>
-			<guid>https://fukucchi.github.io/post/webpage_and_html/</guid>
+			<guid>https://fukucchi.github.io/blog/post/webpage_and_html/</guid>
 			<description>Webページ Webページはハイパーテキストから構成されています．ハイパーテキストとは，1つの Web ページに別の Webページへの参照（ハイパーリンク）を埋め込んで，無数のWebページ同士を関連付けることを可能にするテキストのことです．
 HTML ハイパーテキストを記述するための言語がHTML（HyperText Markup Language）です．名前から見て取れるように，HTMLはマークアップ言語の一種です．つまり，文章の表示方法やハイパーリンクをタグと呼ばれるマークによって表現します．例えば
 &amp;lt;title&amp;gt;エンジニアにたどりつくまで&amp;lt;/title&amp;gt; などとして，
@@ -71,9 +71,9 @@ HTML ハイパーテキストを記述するための言語がHTML（HyperText M
       	
 		<item>
 			<title>APIって何？</title>
-			<link>https://fukucchi.github.io/post/api/</link>
+			<link>https://fukucchi.github.io/blog/post/api/</link>
 			<pubDate>Tue, 07 Jul 2020 14:35:49 +0900</pubDate>
-			<guid>https://fukucchi.github.io/post/api/</guid>
+			<guid>https://fukucchi.github.io/blog/post/api/</guid>
 			<description>APIとはApplication Programming Interfaceの略で，Webサーバーがアプリとうまく情報をやり取りできるようにするものとイメージするとよいでしょう．
 例えばユーザーがスマートフォンに入れている天気予報アプリとWebサーバーの間では情報のやり取りが行われています．天気予報アプリからは地域の情報が Webサーバーに送られ，逆にWebサーバーからは天気の情報が送り返されます．
 ここで，地域情報を受け取る役割を果たしているのがメッセージ受信APIです．</description>
@@ -81,9 +81,9 @@ HTML ハイパーテキストを記述するための言語がHTML（HyperText M
       	
 		<item>
 			<title>ステータスコード</title>
-			<link>https://fukucchi.github.io/post/status_code/</link>
+			<link>https://fukucchi.github.io/blog/post/status_code/</link>
 			<pubDate>Mon, 06 Jul 2020 21:33:47 +0900</pubDate>
-			<guid>https://fukucchi.github.io/post/status_code/</guid>
+			<guid>https://fukucchi.github.io/blog/post/status_code/</guid>
 			<description>アウトプットのためにブログを始めます．まずは先日の面接で答えられなかったことで思い出深いステータスコードから．
 ステータスコードというのは，HTTPリクエストに対する対してWebサーバーが返す処理結果のことです．100番台から500番台の5種類に大きく分けられます．
 まずは，100-300番台について．
