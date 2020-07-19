@@ -1,5 +1,5 @@
 theme = "harbor"
-baseurl = "https://fukucchi.github.io/"
+baseurl = "https://fukucchi.github.io/blog/"
 title = "エンジニアにたどりつくまで"
 # パスの指定。これをしないとcssがうまく反映されません。
 canonifyurls = true
