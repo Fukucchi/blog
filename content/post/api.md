@@ -13,3 +13,7 @@ APIとはApplication Programming Interfaceの略で，**Webサーバーがアプ
 
 
 <script data-ad-client="ca-pub-2296667233758798" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<!-- admax -->
+<script src="https://adm.shinobi.jp/s/8ae62ddfcb928c284dec1bddeaf8bca1"></script>
+<!-- admax -->

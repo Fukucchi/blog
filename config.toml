@@ -36,29 +36,20 @@ disqusShortName = "yourdisqusshortname"
   url = "tags"
   weight = 3
 
-[[params.nav]]
-  identifier = "categories"
-  name = "Category"
-  icon = "fas fa-folder-open fa-lg"
-  url = "categories"
-  weight = 3
 
-[[params.nav]]
-  identifier = "search"
-  name = "Search"
-  icon = "fas fa-search fa-lg"
-  url = "search"
-  weight = 3
-
-[[params.nav]]
-  identifier = "archives"
-  name = "Archives"
-  icon = "fas fa-archive fa-lg"
-  url = "archives"
-  weight = 3
+# [[params.nav]]
+#  identifier = "search"
+#  name = "Search"
+#  icon = "fas fa-search fa-lg"
+#  url = "search"
+#  weight = 3
 
 [params.logo]
-  url = "icon.png" # static/images/icon.png
-  width = 50
-  height = 50
+  url = "home.png" # static/images/icon.png
+  width = 40
+  height = 40
   alt = "Logo"
+
+  [params]
+  description = "Text about my cool site"
+  images = ["home.png"]
